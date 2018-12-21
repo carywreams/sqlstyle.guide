@@ -90,7 +90,7 @@ SELECT first_name
   notation.
 * Never give a table the same name as one of its columns and vice versa.
 * On Associations: ~~Avoid, where possible, concatenating two table names together to create the name
-  of a relationship table. Rather than `cars_mechanics` prefer `services`.~~~ ```-cwr```
+  of a relationship table. Rather than `cars_mechanics` prefer `services`.~~ ```-cwr```
     * concatenating (with an underscore) is acceptable
     * using a connector (memberof, with, etc) is acceptable if needed to add clarification
 
